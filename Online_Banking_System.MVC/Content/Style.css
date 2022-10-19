@@ -1,0 +1,146 @@
+﻿body {
+    background-image: url('../1.jpg');
+}
+/*
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}*/
+
+.user {
+    color: blanchedalmond;
+    float: right;
+    left: 430px;
+    padding: 8px;
+}
+
+
+
+.btn-new {
+    padding: 100px;
+}
+
+.btn-format {
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+
+
+.btn-logout {
+    padding: 8px;
+    left: 630px;
+    top: 13px;
+}
+
+
+
+
+
+/*.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;  5px rounded corners 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: arial;
+}*/
+
+
+
+.btnlogin {
+    margin: 0;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    background-position: 0 center;
+    font: inherit;
+    line-height: 1.42857143;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+    position: relative;
+    left: 100px;
+    bottom: 40px;
+}
+
+
+
+#validation-success {
+    position: absolute;
+    bottom: 200px;
+}
+
+
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+.btnStyle {
+    margin: 0;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    background-repeat: repeat-x;
+    background-position: 0 center;
+    font: inherit;
+    line-height: 1.42857143;
+    text-align: center;
+    text-decoration: none;
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    outline: 0;
+    -webkit-appearance: none;
+    position: relative;
+}
+
+.container {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 1000px;
+}
